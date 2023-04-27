@@ -1,0 +1,63 @@
+body,
+html {
+  height: 100%;
+  margin: 0 auto;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: orange;
+}
+
+aside {
+  float: right;
+  margin: 10px;
+  border: none;
+  display: inline;
+}
+
+.bioimg {
+  border-radius: 25px;
+  padding: 0;
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  border-width: 5px;
+  border-style: solid;
+  border-color: green;
+}
+
+main {
+  /* The image used */
+  background-image: url("./images/bg-snz.jpg");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+article {
+  width: 90%;
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  font-family: "Roboto", sans-serif;
+  vertical-align: middle;
+  box-shadow: 10px 10px lightblue;
+}
+
+h1 {
+  color: grey;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 64px;
+  margin: 0;
+}
